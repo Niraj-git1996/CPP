@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1577187409 source:e:\niraj\c++ program\exception\main.cpp
+	<iostream>
+	"mul_catch.h"
+	"const.h"
+
+1577186668 e:\niraj\c++ program\exception\mul_catch.h
+	<iostream>
+
+1577187741 e:\niraj\c++ program\exception\const.h
+
