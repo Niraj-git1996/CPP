@@ -35,6 +35,7 @@ public:
         catch (...)
         {
            cout<<" stack over flow occuered "<<endl;
+            cout<<" please check the stack pointer"<<endl;
         }
     }
 
