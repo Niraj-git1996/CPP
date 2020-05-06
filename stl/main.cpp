@@ -30,8 +30,8 @@ int main()
     cout<<" using for loop :\n";
     for(int x:v)
         cout<<x<<" ";
-    //int g=v.pop_back());
-    //cout<<g<<endl;
+    int g=v.pop_back());
+    cout<<g<<endl;
     cout << "Hello world!" << endl;
     return 0;
 }
