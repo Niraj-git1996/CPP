@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1576940408 source:e:\niraj\pointers\main.cpp
+	<iostream>
+	"ref.h"
+	"funcptr.h"
+	"funcover.h"
+
+1576939034 e:\niraj\pointers\ref.h
+	<iostream>
+
+1576939007 e:\niraj\pointers\funcptr.h
+
+1576940536 e:\niraj\pointers\funcover.h
+	<iostream>
+
