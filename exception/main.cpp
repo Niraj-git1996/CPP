@@ -15,28 +15,28 @@ using namespace std;
 
 int main()
 {
-    //int a=10,b,c;
+    int a=10,b,c;
     int stz,st_val;
      display();
      cout<<PI<<endl;
      cout<<max(6,9)<<endl;
       cout<<msg(job problem)<<endl;
 
-   // cout<<"enter the value of b :"<<endl;
-//    cin>>b;
-//    try
-//    {
-//        if(b==0)
-//        {
-//            throw string(" div by zero");/* we can throw any primitive data types to catch block defined with that data types */
-//        }
-//        else
-//            c=a/b;cout<<"division  "<<c<<endl;
-//    }
-//    catch(...)
-//    {
-//        cout<<"division by zero error "<<endl;
-//    }
+    cout<<"enter the value of b :"<<endl;
+    cin>>b;
+    try
+    {
+        if(b==0)
+        {
+            throw string(" div by zero");/* we can throw any primitive data types to catch block defined with that data types */
+        }
+        else
+            c=a/b;cout<<"division  "<<c<<endl;
+    }
+    catch(...)
+    {
+        cout<<"division by zero error "<<endl;
+    }
 //    cout<<"enter the size of stack :"<<endl;
 //    cin>>stz;
 //    Stack<float> s1(stz);
