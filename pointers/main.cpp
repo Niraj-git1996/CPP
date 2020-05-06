@@ -1,6 +1,7 @@
 #include <iostream>
 #include "funcptr.h"
 #include "ref.h"
+#include "funcover.h"
 using namespace std;
 //int Max(int x,int y);
 
@@ -21,9 +22,11 @@ cout<<p<<endl;
       p++;
      cout<<++(*(p++))<<endl;
     cout<<p<<endl;
-    cout<<" sending...  "<<*p<<endl;/*sending a same value to a func */
+    cout<<" sending...  "<<*p<<endl;/**sending a same value to a func */
     Ref1(*p);
-
+  cout<<sum(12)<<endl;   /** function overloading with int*/
+    cout<<sum(3.6f,2.1f)<<endl; /** function overloading with float */
+     cout<<sum(12,5,8)<<endl;
     return 0;
 }
 
