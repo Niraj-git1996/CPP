@@ -1,5 +1,6 @@
 #include <iostream>
 #include "funcptr.h"
+#include "ref.h"
 using namespace std;
 //int Max(int x,int y);
 
@@ -16,7 +17,12 @@ int main()
     fp=Min;
     cout<<(*fp)(17,8)<<endl;
     cout<<endl;
-
+cout<<p<<endl;
+      p++;
+     cout<<++(*(p++))<<endl;
+    cout<<p<<endl;
+    cout<<" sending...  "<<*p<<endl;/*sending a same value to a func */
+    Ref1(*p);
 
     return 0;
 }
